@@ -3,7 +3,7 @@
 import time
 from flask import Flask
 app = Flask(__name__)
-
+# This is the checking for the time
 START = time.time()
 
 def elapsed():
